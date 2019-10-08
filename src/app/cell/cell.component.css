@@ -1,0 +1,105 @@
+:host{
+    position: relative;
+}
+
+.btn {
+    width: 50px;
+    height: 50px;
+    display: block;
+}
+
+.hit {
+    width: 50px;
+    height: 50px;
+    background: red;
+    opacity: 0.5;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.sub
+{
+    background-image: url('../../assets/images/Submarino_H_V_1.bmp');
+}
+
+.ct1
+{
+    background-image: url('../../assets/images/Contra-Torpedeiros_H_1.bmp');
+}
+
+.ct2
+{
+    background-image: url('../../assets/images/Contra-Torpedeiros_H_2.bmp');
+}
+
+.tp1
+{
+    background-image: url('../../assets/images/Torpedeiros_H_1.bmp');
+}
+
+.tp2
+{
+    background-image: url('../../assets/images/Torpedeiros_H_2.bmp');
+}
+
+.tp3
+{
+    background-image: url('../../assets/images/Torpedeiros_H_3.bmp');
+}
+
+.ft1
+{
+    background-image: url('../../assets/images/Fragata_H_1.bmp');
+}
+
+.ft2
+{
+    background-image: url('../../assets/images/Fragata_H_2.bmp');
+}
+
+.ft3
+{
+    background-image: url('../../assets/images/Fragata_H_3.bmp');
+}
+
+.ft4
+{
+    background-image: url('../../assets/images/Fragata_H_4.bmp');
+}
+
+.pa1
+{
+    background-image: url('../../assets/images/Porta-Aviões_H_1.bmp');
+}
+
+.pa2
+{
+    background-image: url('../../assets/images/Porta-Aviões_H_2.bmp');
+}
+
+.pa3
+{
+    background-image: url('../../assets/images/Porta-Aviões_H_3.bmp');
+}
+
+.pa4
+{
+    background-image: url('../../assets/images/Porta-Aviões_H_4.bmp');
+}
+
+.pa5
+{
+    background-image: url('../../assets/images/Porta-Aviões_H_5.bmp');
+}
+
+.unk
+{
+    background-color: gray;
+    cursor: pointer;
+}
+
+.agu
+{
+    background-color: blue;
+}

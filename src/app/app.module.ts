@@ -9,6 +9,8 @@ import { HomeComponent } from './home/home.component';
 import { CreditosComponent } from './creditos/creditos.component';
 
 import { ConnectionService } from './connection.service';
+import { CellComponent } from './cell/cell.component';
+import { GameControl } from './game-control';
 
 const appRoutes: Routes = [
   { path: '', redirectTo: '/home', pathMatch: 'full' },
@@ -21,7 +23,8 @@ const appRoutes: Routes = [
   declarations: [
     AppComponent,
     HomeComponent,
-    CreditosComponent
+    CreditosComponent,
+    CellComponent
   ],
   imports: [
     BrowserModule,
@@ -33,6 +36,6 @@ const appRoutes: Routes = [
     HttpClientModule
   ],
   bootstrap: [AppComponent],
-  providers: [ConnectionService]
+  providers: [ConnectionService, GameControl]
 })
 export class AppModule { }
